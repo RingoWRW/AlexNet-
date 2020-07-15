@@ -154,7 +154,8 @@ if __name__ == '__main__':
                     valid_correct += (pred == label).squeeze().cpu().sum().numpy()
 
                     valid_loss += loss.item()
-                    valid_acc_list.append(valid_loss)
+                    valid_loss_list.append(valid_loss)
+                    valid_acc_list.append(valid_accuracy)
                     valid_accuracy = (valid_correct / valid_total) * 100.0
                 print("valid:\t epoch[{:0>3}/{:0>3}]  loss {:.4f}  accuracy {:.2f}%".format(
                         epoch+1,max_epoch, valid_loss/len(valid_loader), valid_accuracy
