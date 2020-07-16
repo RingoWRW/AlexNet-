@@ -17,4 +17,4 @@ data文件夹里用来存放train set和test set，图片可以来自网络也�
 本次实验是在 win10 + python3.7 + pytorch1.12 + tensorboard2.0    
 
 部分效果图  
-https://github.com/RingoWRW/AlexNet-/raw/master/data/inference.jpg
+![image](https://github.com/RingoWRW/AlexNet-/raw/master/data/inference.jpg)
