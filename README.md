@@ -14,4 +14,7 @@ data文件夹里用来存放train set和test set，图片可以来自网络也�
 
 其中前两个程序在cpu也是可以运行的，最后一个最好是选择GPU 毕竟有25000张图片  
 
-本次实验是在 win10 + python3.7 + pytorch1.12 + tensorboard2.0  
+本次实验是在 win10 + python3.7 + pytorch1.12 + tensorboard2.0    
+
+部分效果图  
+https://github.com/RingoWRW/AlexNet-/data/inference.jpg
